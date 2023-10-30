@@ -1,0 +1,25 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@types/node": "^18.17.3",
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.6.5",
+    "nuxt-simple-robots": "^3.1.0",
+    "postcss": "^8.4.27",
+    "tailwindcss": "^3.3.3"
+  },
+  "dependencies": {
+    "@storyblok/nuxt": "^5.7.4",
+    "@studio-freight/lenis": "^1.0.19",
+    "gsap": "^3.12.2"
+  }
+}

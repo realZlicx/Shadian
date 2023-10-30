@@ -1,0 +1,64 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "jsx": "preserve",
+    "jsxFactory": "h",
+    "jsxFragmentFactory": "Fragment",
+    "paths": {
+      "#imports": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/.nuxt/types/nitro-imports"
+      ],
+      "#paths": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/node_modules/nuxt/dist/core/runtime/nitro/paths"
+      ],
+      "~": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian"
+      ],
+      "~/*": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/*"
+      ],
+      "@": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian"
+      ],
+      "@/*": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/*"
+      ],
+      "~~": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian"
+      ],
+      "~~/*": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/*"
+      ],
+      "@@": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian"
+      ],
+      "@@/*": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/*"
+      ],
+      "assets": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/assets"
+      ],
+      "assets/*": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/assets/*"
+      ],
+      "public": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/public"
+      ],
+      "public/*": [
+        "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/public/*"
+      ]
+    }
+  },
+  "include": [
+    "C:/Users/omkar/OneDrive/Documents/GitHub/Shadian/.nuxt/types/nitro-nuxt.d.ts",
+    "./types/nitro.d.ts",
+    "../**/*",
+    "../server/**/*"
+  ]
+}
