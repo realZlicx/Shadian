@@ -9,67 +9,57 @@
             </div>
         </div>
 
-        <div class="w-full flex justify-between">
-            <div class="flex gap-x-10">
-                <div
-                    class="h-68 w-96 border-2 border-[#a1aebf] pl-6 pt-5 rounded-md gap-y-5 flex flex-col bg-[#0f0f0f]">
-                    <div class="flex">
-                        <img class="" src="@/assets/user1.svg" alt="">
-                        <div class=" flex flex-col ml-3 justify-center">
-                            <p class="font-light text-base">Brooklyn Simmons</p>
-                            <p class="text-[#a09f9f] text-sm font-light">manam</p>
-                        </div>
+        <div class="w-full grid grid-cols-4 gap-x-10 gapy-10 font-agrandir">
+            <div class="p-3 pb-5 h-fit w-full border-white border">
+                <div class="flex items-center w-full gap-x-2">
+                    <img class="h-10 lg:h-16 lg:w-16 2xl:h-20 2xl:w-20" src="@/assets/user1.svg" alt="">
+                    <div class="">
+                        <div class="font-agrandir-tight font-semibold">Brooklyn Simmons</div>
+                        <div class="text-[#FFFFFF99] font-semibold text-sm">manam</div>
                     </div>
-                    <p class="text-lg text-white font-bold font-agrandir">Sit ut diam bibendum dolor.<br> Ullamcorper pharetra nibh eget<br> vitae
-                        pulvinar. Placerat sapien,<br> dolor, aenean vivamus in tincidunt<br> et. Mauris dolor vestibulum et<br> lacus a
-                        ante orci.</p>
                 </div>
-
+                <div class="text-white font-semibold text-sm px-4 mt-4 2xl:text-lg">
+                    Sit ut diam bibendum dolor. Ullamcorper pharetra nibh eget vitae pulvinar. Placerat sapien, dolor,
+                    aenean vivamus in tincidunt et. Mauris dolor vestibulum et lacus a ante orci.
+                </div>
             </div>
-
-            <div class="flex gap-x-10">
-                <div
-                    class="h-52 w-96 border-2 border-[#a1aebf] pl-6 pt-5 rounded-md gap-y-5 flex flex-col bg-[#0f0f0f]">
-                    <div class="flex">
-                        <img class="" src="@/assets/user2.svg" alt="">
-                        <div class=" flex flex-col ml-3 justify-center">
-                            <p class="font-light text-base">Esther Howard</p>
-                            <p class="text-[#a09f9f] text-sm font-light">Offmax</p>
-                        </div>
+            <div class="p-3 pb-5 h-fit w-full border-white border">
+                <div class="flex items-center w-full gap-x-2">
+                    <img class="h-10 lg:h-16 lg:w-16 2xl:h-20 2xl:w-20" src="@/assets/user2.svg" alt="">
+                    <div class="">
+                        <div class="font-agrandir-tight font-semibold">Esther Howard</div>
+                        <div class="text-[#FFFFFF99] font-semibold text-sm">Offmax</div>
                     </div>
-                    <p class="text-lg text-white font-bold font-agrandir">Vitae tellus bibendum nibh integer<br>auctor pretium sed. Sollicitudin<br> tristique euismod elit.</p>
                 </div>
-
+                <div class="text-white font-semibold text-sm px-4 mt-4 2xl:text-lg">
+                    Vitae tellus bibendum nibh integer auctor pretium sed. Sollicitudin tristique euismod elit.
+                </div>
             </div>
-
-            <div class="flex gap-x-10">
-                <div
-                    class="h-64 w-96 border-2 border-[#a1aebf] pl-6 pt-5 rounded-md gap-y-5 flex flex-col bg-[#0f0f0f]">
-                    <div class="flex">
-                        <img class="" src="@/assets/user3.svg" alt="">
-                        <div class=" flex flex-col ml-3 justify-center">
-                            <p class="font-light text-base">Arlene McCoy</p>
-                            <p class="text-[#a09f9f] text-sm font-light">bloopixel</p>
-                        </div>
+            <div class="p-3 pb-5 h-fit w-full border-white border">
+                <div class="flex items-center w-full gap-x-2">
+                    <img class="h-10 lg:h-16 lg:w-16 2xl:h-20 2xl:w-20" src="@/assets/user3.svg" alt="">
+                    <div class="">
+                        <div class="font-agrandir-tight font-semibold">Arlene McCoy</div>
+                        <div class="text-[#FFFFFF99] font-semibold text-sm">bloopixel</div>
                     </div>
-                    <p class="text-lg text-white font-bold font-agrandir">Eu eu eget lorem commodo<br>sagittis enim in viverra. Urna<br>egestas ipsum gravida tempor.<br>Libero, consectetur urna in enim<br> magnis. Est..</p>
                 </div>
-
+                <div class="text-white font-semibold text-sm px-4 mt-4 2xl:text-lg">
+                    Eu eu eget lorem commodo sagittis enim in viverra. Urna egestas ipsum gravida tempor. Libero,
+                    consectetur urna in enim magnis. Est.
+                </div>
             </div>
-
-            <div class="flex gap-x-10">
-                <div
-                    class="h-72 w-96 border-2 border-[#a1aebf] pl-6 pt-5 rounded-md gap-y-5 flex flex-col bg-[#0f0f0f]">
-                    <div class="flex">
-                        <img class="" src="@/assets/user4.svg" alt="">
-                        <div class=" flex flex-col ml-3 justify-center">
-                            <p class="font-light text-base">Jane Cooper</p>
-                            <p class="text-[#a09f9f] text-sm font-light">unpexel</p>
-                        </div>
+            <div class="p-3 pb-5 h-fit w-full border-white border">
+                <div class="flex items-center w-full gap-x-2">
+                    <img class="h-10 lg:h-16 lg:w-16 2xl:h-20 2xl:w-20" src="@/assets/user4.svg" alt="">
+                    <div class="">
+                        <div class="font-agrandir-tight font-semibold">Jane Cooper</div>
+                        <div class="text-[#FFFFFF99] font-semibold text-sm">unpixel</div>
                     </div>
-                    <p class="text-lg text-white font-bold font-agrandir">Amet aliquam, volutpat nisl, duis<br> sed at. Vehicula proin consectetur<br>risus dictumst nec amet<br>consequat at tempus. Ornare<br>dapibus nunc fames nibh morbi<br>viverra eu sed mattis.</p>
                 </div>
-
+                <div class="text-white font-semibold text-sm px-4 mt-4 2xl:text-lg">
+                    Amet aliquam, volutpat nisl, duis sed at. Vehicula proin consectetur risus dictumst nec amet consequat
+                    at tempus. Ornare dapibus nunc fames nibh morbi viverra eu sed mattis.
+                </div>
             </div>
         </div>
     </div>
